@@ -1,0 +1,72 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"ab
+    xmlns:tools = "http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height = "match_parent" tools:context = ".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="296dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="21dp"
+        android:text="Complete your information"
+        android:textColor="@color/mainColor"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="126dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="36dp"
+        android:text="Gender"
+        android:textColor="@color/mainColor"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="347dp"
+        android:layout_marginEnd="-18dp"
+        android:backgroundTint="@color/mainColor"
+        android:text="Save Data" />
+
+    <RadioButton
+        android:id="@+id/radio_pirates"
+        android:layout_width="137dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/radio_ninjas"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="80dp"
+        android:text="Female"
+        android:textColor="@color/mainColor"
+        android:textSize="20dp" />
+
+    <RadioButton
+        android:id="@+id/radio_ninjas"
+        android:layout_width="137dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="123dp"
+        android:layout_toEndOf="@+id/textView1"
+        android:text="Male"
+        android:textColor="@color/mainColor"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
