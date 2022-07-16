@@ -10,6 +10,11 @@ Web based applicaton:
 - Tailwind 
 - Material-ui
 
+# How to run
+ <h3> make sure to have npm installed in your machiene then run: </h3>
+  - npm install 
+  - npm run start 
+
 # Reference 
 > This project was developed by Eng.Rula Abuhasna, designed by Dalia Kasab, group pitched the documentaion with help of Roaa Elyan
 > Computer Systems Engineering Department  
